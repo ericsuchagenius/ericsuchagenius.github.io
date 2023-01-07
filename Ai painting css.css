@@ -1,0 +1,160 @@
+@charset "UTF-8"
+.main{
+	border:0px;
+	padding:0px;
+	display:grid;
+	font-family:andada;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+	"startinglink startinglink"
+	"maintitle maintitle"
+	"subtitle subtitle"
+	"pic1 pic1"
+	"intro1 intro1"
+	"intro2 intro3"
+	"algorithmheading algorithmheading"
+	"algorithmbody algorithmbody"
+	"algorithmbody pic2"
+	"algorithmcredit algorithmcredit"
+	"pic3 AIpaintingheading"
+	"introtopic11 introtopic11"
+	"introtopic12 pic4"
+	"conclutionheading conclutionheading"
+	"conclutionbody conclutionbody"
+	"endinglink endinglink"
+}
+.maintitle{
+	display:flex;
+	grid-area:maintitle;
+	fontsize:40px;
+	justify-content: center;
+	color: royalblue;
+	background-color:orange;
+	border:solid 10px;
+	border-color:orange;
+	border-radius:5px;
+	
+}
+.subtitle{
+	display:flex;
+	grid-area:subtitle;
+	font-size:30px;
+	justify-content: center;
+	color:royalblue;
+	background-color:orange;
+	border-radius:5px;
+}
+.startinglink:hover{
+	color:white;
+}
+.startinglink{
+	display:flex;
+	grid-area:startinglink;
+	color:cornflowerblue;
+	font-size:35px;
+	background-color: wheat;
+	border-radius: 5px;
+	justify-content: center;
+}
+.pic1{
+	display:flex;
+	grid-area:pic1;
+	width:1000px;
+	border-width: 5px;
+	border-color:black;
+	border-radius: 10px;
+	justify-content: center;
+}
+.intro1{
+	grid-area:intro1;
+	font-size: 25px;
+	justify-self:left;
+	color:wheat;
+}
+.intro2{
+	grid-area:intro2;
+	font-size: 25px;
+	jutify-self:left;
+	color:wheat;
+	
+}
+.intro3{
+	grid-area:intro3;
+	font-size: 25px;
+	justify-self:left;
+	color:wheat;
+}
+.algorithmheading1{
+	display:flex;
+	grid-area:algorithmheading;
+	font-size: 40px;
+	justify-content:center;
+	color:wheat;
+}
+.algorithmbody1{
+	grid-area:algorithmbody;
+	font-size:25px;
+	justify-self:left;
+}
+.pic2{
+	grid-area:pic2;
+	width:1000px;
+	border-width: 10px;
+	border-color:black;
+	border-radius:10px;
+}
+.algoeithmcredit{
+	grid-area:algorithmcredit;
+	font-size:35px;
+	justify-self:left;
+}
+.pic3{
+	display:flex;
+	grid-area:pic2;
+	width:600px;
+	border:10px;
+	border-radius:10px;
+	justify-content: center;
+}
+.pic4{
+	grid-area:pic4;
+	width:400px;
+	border:solid 10px;
+	border-color:black;
+	border-radius:10px;
+}
+.intropic11{
+	grid-area:introtopic11;
+	font-size:20px;
+	justify-self:left;
+}
+.intropic12{
+	grid-area:introtopic12;
+	font-size:20px;
+	justify-self:left;
+	float:left;
+}
+.conclution{
+	display:flex;
+	grid-area:conclutionheading;
+	fontsize:40px;
+	justify-content: center;
+}
+.conclution1{
+	grid-area:conclutionbody;
+	font-size:20px;
+	justify-self:center;
+}
+.endinglink{
+	display:flex;
+	grid-area:endinglink;
+	font-size:35px;
+	color:black;
+	align-content: center;
+	justify-content: center;
+	background-color: royalblue;
+	border-radius: 5px;
+}
+.endinglink:hover{
+	color:white;
+}
